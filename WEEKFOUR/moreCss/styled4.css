@@ -1,0 +1,46 @@
+body {
+    background-color: lightslategray;
+}
+nav {
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+nav>a {
+    float: left;
+    text-align: center;
+    padding: 15px;
+}
+.pageHeader {
+    color: blue;
+    text-align: center;
+    margin-top: 70px;
+}
+.postImg {
+    float: left;
+    width: 275px;
+    height: 160px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.postLink {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.postLink:hover {
+    text-decoration: underline;
+}
+.dateTopic {
+    font-style: italic;
+    font-size: 14px;
+}
+.totalPost {
+    border: 1px solid black;
+    width: 80%;
+    margin: 60px auto 0px auto;
+    padding: 40px;
+}

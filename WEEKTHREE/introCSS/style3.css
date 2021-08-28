@@ -1,0 +1,27 @@
+#main {
+    color: darkgreen;
+}
+#outro {
+    text-transform: uppercase;
+}
+.headline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+div>p {
+    line-height: 25px;
+}
+div>a {
+    text-decoration: none;   
+}
+div>a:hover {
+    text-decoration: underline;
+}
+div>img {
+    float: left;
+    padding-top: 10px;
+    padding-right: 25px;
+}
+div>p>b {
+    font-weight: normal;
+}

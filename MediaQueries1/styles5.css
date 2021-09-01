@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.lightpink,
+.darkpink,
+.blue,
+.green,
+.orange{
+    height: 200px;
+    padding: 15px;
+    border:5px solid white;
+    float: left
+}
+
+.lightpink{
+    background-color: #F5C6D6;
+    width: 100%;
+}
+
+.darkpink{
+    background-color: #EE2E84;
+    width: 25%;
+}
+
+.blue{
+    background-color: #85CFD8;
+    width: 50%;
+}
+
+.green{
+    background-color: #8DC63F;
+    width: 66.66%
+}
+
+.orange{
+    background-color: #E76E34;
+    width: 33.33%;
+}
+@media only screen and (max-width:768px) {
+.lightpink,
+.darkpink,
+.blue,
+.green,
+.orange{
+    width: 100%;
+}}

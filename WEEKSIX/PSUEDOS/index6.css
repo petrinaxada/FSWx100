@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+.box {
+  height: 100px;
+  padding: 15px;
+  border:5px solid rgb(0, 0, 0);
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/*COLORBOX & BORDER */
+#one{
+background-color: rgb(92, 25, 25);
+text-align: center;
+}
+#one:hover{
+background-color: #5f1f5b;
+border: 5px solid black;
+}
+
+/*COLOR & SIZEE*/
+#two{
+background-color: rgb(116, 85, 29);
+transition: background-image .5 ease-in;
+}
+#two:hover{
+background-image: linear-gradient(rgb(121, 52, 52),rgb(37, 151, 185), rgb(139, 139, 75));
+height: 350px;
+}
+/*SHADOW AND IMAGE*/
+#three{
+background-color: rgb(57, 56, 116);
+}
+#three:hover{
+border: 5px solid rgb(126, 99, 30);
+box-shadow: 10px 10px rgb(148, 109, 109);
+}
+/*SIZE AND IMAGE*/
+#four{
+background-color: rgb(35, 104, 35);
+}
+#four:hover{
+background-image: url(huang-junsheng-EzxJPKyDKfc-unsplash.jpg);
+height: 500px;
+width: 500px;
+border: 2px solid black;
+border-radius: 50%;
+}
+
+/*BORDER & POSITION*/
+#five{
+background-color: rgb(71, 71, 124);
+}
+#five:hover{
+border: 10px dashed rgb(100, 94, 94);
+border-radius: 50%;
+position: relative;
+left: -50px;
+}
+
+/*SIZE & SHAPING */
+#six{
+background-color: rgb(119, 62, 119); 
+text-decoration-line: underline;
+text-align: center;
+}
+#six:hover{
+height: 300px;
+width: 300px;
+border-radius: 50%;
+text-decoration-line: overline underline;
+text-decoration-style: wavy;
+line-height:200px
+}
